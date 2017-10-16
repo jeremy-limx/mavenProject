@@ -13,9 +13,8 @@ public class Greeter {
   }
 
   /**
-   * This is to return a string.
-   * @param someone
-   * @return String
+   * @param someone is the parameter to be input
+   * @return greeting String will be returned
    */
   public final String greet(final String someone) {
     return String.format("Hello, %s! Webhook Testing Again!", someone);
